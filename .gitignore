@@ -1,0 +1,45 @@
+# General
+.DS_Store
+*.log
+*.swp
+*.swo
+Thumbs.db
+
+# IDE Specific
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+.vs
+
+# ===== BACKEND (.NET) =====
+# Build outputs
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# NuGet
+[Nn]uget/
+*.nupkg
+packages/
+
+# Local development files
+appsettings.Development.json
+appsettings.Local.json
+
+
+# ===== FRONTEND (React - RestaurantWeb) =====
+RestaurantWeb/node_modules/
+RestaurantWeb/.env
+RestaurantWeb/.env.local
+RestaurantWeb/.env.development
+RestaurantWeb/.env.test
+RestaurantWeb/.env.production
+RestaurantWeb/npm-debug.log*
+RestaurantWeb/yarn-debug.log*
+RestaurantWeb/yarn-error.log*
+RestaurantWeb/.eslintcache
+RestaurantWeb/coverage/
